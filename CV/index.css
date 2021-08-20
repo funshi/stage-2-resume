@@ -1,0 +1,88 @@
+
+#name {
+    border: solid 1px black;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.experience {
+    border: solid 1px black;
+    display: flex;
+}
+.exp-1 {
+    display: flex;
+    border: solid 1px black;
+}
+.exp-1 > div {
+    flex: 1;
+    border-bottom: solid 1px black;
+
+}
+.edu {
+    border: solid 1px black;
+    margin-top: 5px;
+}
+.educate-1 {
+    display: flex;
+    border: solid 1px black;
+}
+.educate-1 > div {
+    flex: 1;
+    border-bottom: solid 1px black;
+}
+.skills {
+    border: solid 1px black;
+    margin-top: 5px;
+}
+.ski {
+    border: solid 1px black;
+}
+ul {
+    display: flex;
+}
+ul li {
+    flex: 2;
+}
+@media screen and (max-width:480px) {
+#name {
+    font-size: 14px;
+}
+.experience {
+    display: block;
+    text-align: center;
+}
+.exp-1 {
+    display: block;
+    font-size: 10px;
+}
+.exp-1 > div {
+    display: flex;
+}
+.exp-1 > div > p {
+    font-style: italic;
+    font-size: 2vn;
+}
+.exp-1 > div > h3 {
+    font-size: 2vw;
+}
+.exp-1 div ul {
+    display: block;
+}
+.edu {
+    text-align: center;
+}
+.educate-1 {
+    display: block;
+    font-size: 8px;
+    text-align: center;
+}
+.skills {
+    text-align: center;
+}
+ul > li {
+    text-align: center;
+}
+footer li {
+    display: block;
+}
+}
